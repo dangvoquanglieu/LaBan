@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+li {
+	list-style: none;
+}
+
+.container{
+	width: 980px;
+	margin: 20px auto;
+}
+
+.container .block-header {
+	border-bottom: 1px solid #00ACC1;
+}
+
+.container .block-header h3 {
+	background-color: #00ACC1;
+	display: inline-block;
+	color: white;
+	font-weight: normal;
+	padding: 5px 10px;
+	font-size: 15px;
+}
+
+.container ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.container ul li {
+	flex-basis: 25%;
+	height: 40px;
+	line-height: 40px;
+	background-image: url(icon.png);
+	background-repeat: no-repeat;
+}
+
+.container ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 3px 0;
+	padding-left: 32px;
+}
+
+.container ul li a:hover {
+	color: #00ACC1;
+	font-weight: bold;
+}
+
+.container ul li:nth-child(1){
+	background-position: 0px 0px;
+}
+
+.container ul li:nth-child(2){
+	background-position: 0px -52px;
+}
+
+.container ul li:nth-child(3){
+	background-position: 0px -156px;
+}
+
+.container ul li:nth-child(4){
+	background-position: 0px -208px;
+}
+
+.container ul li:nth-child(5){
+	background-position: 0px -260px;
+}
+
+.container ul li:nth-child(6){
+	background-position: 0px -312px;
+}
+
+.container ul li:nth-child(7){
+	background-position: 0px -364px;
+}
+
+.container ul li:nth-child(8){
+	background-position: 0px -416px;
+}
+
+.container ul li:nth-child(9){
+	background-position: 0px -468px;
+}
+
+.container ul li:nth-child(10){
+	background-position: 0px -520px;
+}
+
+.container ul li:nth-child(11){
+	background-position: 0px -572px;
+}
+
+.container ul li:nth-child(12){
+	background-position: 0px -624px;
+}
+
+.container ul li:nth-child(13){
+	background-position: 0px -672px;
+}
+
+.container ul li:nth-child(14){
+	background-position: 0px -728px;
+}
+
+.container ul li:nth-child(15){
+	background-position: 0px -780px;
+}
+
+.container ul li:nth-child(16){
+	background-position: 0px -832px;
+}
+
+.container ul li:nth-child(17){
+	background-position: 0px -884px;
+}
+
+.container ul li:nth-child(18){
+	background-position: 0px -936px;
+}
+
+.container ul li:nth-child(19){
+	background-position: 0px -988px;
+}
